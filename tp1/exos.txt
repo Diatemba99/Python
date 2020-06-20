@@ -1,0 +1,193 @@
+Exercice 1
+Parmi les instructions d'affectation Python suivantes, lesquelles sont syntaxiquement
+correctes ?
+a) a <- a + 1          ===========false
+b) a += b              ===========true
+c) a b = a b +1        ===========true
+d) a = a + 1           ===========true
+e) a = bonjour         ===========false
+f) a = 40"             ===========false
+g) a = + "True"        ===========false
+h) dgdhksiemejdfhh = 1 ===========true
+i) ix. a = a ** 5      ===========false
+
+
+
+
+
+
+Exercice 2
+Complétez le tableau en remplissant la valeur de chaque variable après l'exécution
+de chaque ligne de code.
+a b c
+a = 6 6 N’existe pas N’existe pas
+b = 3 6 3 N’existe pas
+c = a * b 6 3 18
+a = c // b              =====6
+print( (a – b) * c )    =====54
+b = b * b * b           =====27
+
+
+
+Exercice 3
+Evaluez l'expression numérique sans l'ordinateur, et puis utilisez Python pour vérifier
+votre réponse.
+a) 1.7 * 8.2==13.9
+b) 7 ** 2 ==49
+c) 1 / (2 ** 3)== 0.125
+d) 3 + (4 * 5) ==23
+e) (8 + 6) / 5 ==2.8
+f) 3 * ((-2) ** 5)== -96
+g) 7 // 3 ==1
+h) 14 % 4 ==2
+i) 9 % 3  ==0
+j) 14 // 4 ==3
+k) 2 ** 2 ==4
+l) 5 % 5  ==0
+
+
+
+
+Exercice 4
+Déterminer si le nom utilisé est un nom de variable valide
+a) _vendeur ==ok
+b) chambre&Salon ==non
+c) tHrY_3050==ok
+d) 2020==non
+e) @variable ==non
+f) REVENUE 2020 ==non
+
+
+
+Exercice 5
+Evaluer l'expression numérique où a = 5, b = 3 et c = 7
+a) (a * b) + c ==22
+b) a * (b + c)==50
+c) (1 + b) * c==28
+d) 2a ** c==10000000
+e) b ** (c - a)==9
+f) (c - a) ** b==9
+
+
+
+
+
+Exercice 6
+Complétez le tableau en remplissant la valeur de chaque variable après l'exécution
+de chaque ligne
+x y
+x = -2           =============== x= -2  
+y = x + 5        =============== y= 3
+x = x ** y       =============== x= 9
+print( (x / y) + 2)  =========== 5
+y = y % 2 + 0.6      =========== y=1.6
+
+
+
+
+
+Exercice 7
+Identifiez les erreurs
+1) 
+   a = 2
+   b = 3
+   a + b = c
+   print(b)
+2) 
+  solde = 100000
+  depot = 55.500
+  print(Solde + Depot)
+
+3)
+   0.05 = interet ===
+   solade = 800
+   print(interet * solde) ====
+4) 
+   9W = 2 * 9W====
+   print(9W)=====
+
+
+
+
+
+
+Exercice 8
+Trouvez la valeur de la fonction
+a) int(10.75) ===10
+b) int(9 - 2) ===7
+c) abs(3 - 10) ==7
+d) abs(10 ** (-3)) ==0.001
+e) round(3.1279, 3) ==3.128
+f) round(-2.6)  == -3
+
+
+
+
+
+Exercice 9
+Réécrire les instructions en utilisant l'affectation d’incrémentation
+a) cost = cost + 5
+   cost +=5
+
+b) sum = sum * 2
+   sum *= 2
+c) cost = cost / 6
+   cost /= 6
+d) sum = sum - 7
+   sum -= 7
+e) sum = sum % 2
+   sum %=2 
+f) cost = cost // 3
+   cost //= 3
+
+
+
+Exercice 10
+
+"""
+ceci est un script qui permet de faire le calcul de prrofit
+"""
+
+
+
+
+revenu = 98456
+couts  = 45000
+benefice = revenu - couts
+aff = "Le bénéfice est de"
+
+print(aff,benefice)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercice 11
+"""
+ceci est un script qui permet de faire le calcul d'action
+"""
+
+
+
+
+
+cout_par_action = 25.625
+
+nombre_actions  = 400
+
+montant = nombre_actions * cout_par_action
+
+aff = "le montant est de : "
+print(aff,montant)
+
+
