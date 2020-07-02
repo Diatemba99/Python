@@ -1,0 +1,54 @@
+liste_pays = [ "Japon", "Inde", "Algérie", "Brézil", "Angola", "Engleterre",
+"Argentine", "Portugal", "Chine", "Australie", "Autriche", "Ghana", "Bahamas",
+"Espagne", "Belgique", "Sénégal", "Mali", "Cameroun", "Canada", "Nigéria"]
+
+print(liste_pays [2], liste_pays [-1])
+==Algérie Nigéria
+
+print(liste_pays [3], liste_pays [-3])
+==Brézil Cameroun
+
+print(liste_pays [18], liste_pays [16])
+==Canada Mali
+
+print(len(liste_pays))
+==20
+
+print(liste_pays [-1], liste_pays [19])
+==Nigéria Nigéria
+
+print(liste_pays. index("Cameroun"))
+==17
+
+print(liste_pays.index("Ghana")
+==11
+
+print(liste_pays.index(liste_pays s[10]))
+==SyntaxError: invalid syntax
+print(liste_pays.index(liste_pays[10]))
+==10
+
+print(liste_pays [len(liste_pays) - 1], liste_pays [-1])
+==Nigéria Nigéria
+
+print(liste_pays [0].upper())
+==JAPON
+
+liste_pays [0] = liste_pays [0].lower()
+==affectation
+
+print(liste_pays [0])
+==Japon
+
+liste_pays.insert(5, "Allemagne")
+==ajout simple
+
+print(liste_pays[5])
+== ['Japon', 'Inde', 'Algérie', 'Brézil', 'Angola', 'Allemagne', 'Engleterre', 
+    'Argentine', 'Portugal', 'Chine', 'Australie', 'Autriche', 'Ghana', 
+    'Bahamas', 'Espagne', 'Belgique', 'Sénégal', 'Mali', 'Cameroun', 'Canada', 'Nigéria'
+   ]
+
+
+liste_pays.append("Somalie")
+==ajout simple
