@@ -3,18 +3,13 @@ Parmi les instructions d'affectation Python suivantes, lesquelles sont syntaxiqu
 correctes ?
 a) a <- a + 1          ===========false
 b) a += b              ===========true
-c) a b = a b +1        ===========true
+c) a b = a b +1        ===========false
 d) a = a + 1           ===========true
 e) a = bonjour         ===========false
 f) a = 40"             ===========false
 g) a = + "True"        ===========false
 h) dgdhksiemejdfhh = 1 ===========true
 i) ix. a = a ** 5      ===========false
-
-
-
-
-
 
 Exercice 2
 Complétez le tableau en remplissant la valeur de chaque variable après l'exécution
@@ -139,55 +134,3 @@ e) sum = sum % 2
    sum %=2 
 f) cost = cost // 3
    cost //= 3
-
-
-
-Exercice 10
-
-"""
-ceci est un script qui permet de faire le calcul de prrofit
-"""
-
-
-
-
-revenu = 98456
-couts  = 45000
-benefice = revenu - couts
-aff = "Le bénéfice est de"
-
-print(aff,benefice)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Exercice 11
-"""
-ceci est un script qui permet de faire le calcul d'action
-"""
-
-
-
-
-
-cout_par_action = 25.625
-
-nombre_actions  = 400
-
-montant = nombre_actions * cout_par_action
-
-aff = "le montant est de : "
-print(aff,montant)
-
-
