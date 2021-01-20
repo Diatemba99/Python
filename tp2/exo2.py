@@ -5,22 +5,15 @@ Mais également  décrémente la valeur de b et affichant sa valeur si elle est
 impaire. Boucler tant que b n’est pas nul.
 
 """
-
 a, b = 0, 10
 
-print("voici la premiere boucle")
+print("boucle ++ ")
 while a <= b:
     print(a, end=' ')
     a+= 1
-
-
-
-
-#boucle qui decremente en affichant les valeurs impaires
-print("\n\n" +"voici la deuxieme boucle")
-for i in range(1,b):
     
+#boucle qui decremente en affichant les valeurs impaires
+print("\n\n" +"Boucle --")
+for i in range(1,b):
         if i % 2 != 0:
             print(b-i, end=' ')
-        
-
