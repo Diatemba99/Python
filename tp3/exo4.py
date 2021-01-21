@@ -4,11 +4,8 @@ saisie par l'utilisateur. Si l'utilisateur entre a, e, i, o ou u, votre programm
 afficher un message indiquant que la lettre saisie est une voyelle. Sinon, votre
 programme devrait afficher un message indiquant que la lettre est une consonne.
 """
-
 caractere = input("saisissez un caractere ")
-
 voyelle = ["a", "e", "i", "o", "u", "y"]
-
 
 if caractere in voyelle:
     print(caractere,"est une voyelle")
