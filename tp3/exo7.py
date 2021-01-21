@@ -7,11 +7,8 @@ répondre que par «oui» ou «non». Ensuite, le joueur doit deviner le mot.
 #choisir un mot au hasard
 import random
 import os
-
 dico_mots = ["python", "coding", "boucle", "tuples", "listes"]
-
 mot_a_deviner= random.choice(dico_mots)
-
 coup = 5
 
 #j'affichais le mot a deviner four faire le test
@@ -19,10 +16,8 @@ coup = 5
 print("-"*13)
 print('---INDICES---')
 print("le mot a deviner est composé de : ", len(mot_a_deviner),"caracteres")
-
 #boucle principale du jeu
 for jeu in range(5):
-
     #deviner le mot
     mot_saisie = input("veuillez deviner le mot : ")
     mot =  mot_saisie.lower()
@@ -44,7 +39,6 @@ for jeu in range(5):
                         #os.system("color E")
                         break
 
-
             coup = coup - 1
             print("il vous reste",coup, "tentatives")
             break
@@ -54,10 +48,3 @@ for jeu in range(5):
     # s'il epuise le nombre de tentatives
     if coup == 0:
         print("game over")
-
-
-
-
-
-
-
