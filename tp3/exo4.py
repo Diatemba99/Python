@@ -11,4 +11,3 @@ if caractere in voyelle:
     print(caractere,"est une voyelle")
 else:
     print(caractere,"est une consonne")
-
