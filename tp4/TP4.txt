@@ -49,6 +49,5 @@ print(liste_pays[5])
     'Bahamas', 'Espagne', 'Belgique', 'Sénégal', 'Mali', 'Cameroun', 'Canada', 'Nigéria'
    ]
 
-
 liste_pays.append("Somalie")
 ==ajout simple
