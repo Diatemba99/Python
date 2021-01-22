@@ -1,11 +1,6 @@
 """
 Donnez la sortie de ce programme 
 """
-
-
-
-
-
 nombres_entiers = (6, 2, 8, 0)
 print("Plus grand nombre entier:", max(nombres_entiers))
 print("Nombre d’éléments:", len(nombres_entiers))
