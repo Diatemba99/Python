@@ -1,2 +1,2 @@
 # Python
-Un repo pour tout mes exos python
+-This repo is for all my Python's exercices
